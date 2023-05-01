@@ -1,7 +1,6 @@
 <?php 
 
 include_once './conn.inc';
-//  echo "Hello World! This a PHP Apache containerized simple app";
 
 // select query
 $sql = 'SELECT * FROM users';
