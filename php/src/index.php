@@ -2,7 +2,6 @@
 
 include_once './conn.inc';
 
-// select query
 $sql = 'SELECT * FROM users';
 
 $result = $conn->query($sql);
