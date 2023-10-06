@@ -1,2 +1,2 @@
 # dockerize-php-mysql-app
-A basic application illustrating how to create a PHP + MySQL application by containerization using docker
+A basic application illustrating how to containerize a PHP + MySQL application using docker.

@@ -23,5 +23,4 @@ if($result) {
     echo "0 results";
 }
 
-
 ?>
