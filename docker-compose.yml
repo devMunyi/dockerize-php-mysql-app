@@ -2,6 +2,7 @@ version: '3.8'
 services:
     php-apache-environment:
         container_name: php-apache
+        image: php-apache-app
         build:
             context: ./php
             dockerfile: Dockerfile
@@ -25,9 +26,10 @@ services:
         volumes:   # Add this section for data persistence
             - mysql-data:/var/lib/mysql
     phpmyadmin:
+        container_name: phpmyadmin
         image: phpmyadmin/phpmyadmin
         ports:
-            - '8080:80'
+            - '8081:80'
         restart: always
         environment:
             PMA_HOST: db
